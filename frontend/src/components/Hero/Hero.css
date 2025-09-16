@@ -1,0 +1,61 @@
+.Hero {
+    height: 90vh;
+    background-color: white;
+    align-content: center;
+    justify-items: center;
+}
+
+.char-container {
+    justify-content: center;
+}
+
+.head {
+    width: 5rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #EBDAB2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-lens,
+.right-lens {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: .2rem;
+}
+
+.eyes, 
+.glasses {
+    display: flex;
+    justify-items: space-between;
+}
+
+.right-eye,
+.left-eye {
+    background-color: black;
+    width: .4rem;
+    height: .4rem; 
+    border-radius: 50%;
+}
+
+.glasses {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.hair {
+    width: 4.3rem;
+    height: 3rem;
+    background-color: black;
+    border-radius: 5% 5% 5% 5%;
+    transform: translateY(1.1rem);
+    justify-self: center;
+    position: relative;
+}
+
