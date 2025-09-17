@@ -1,3 +1,4 @@
+// Timestamp
 /**
  * creates and returns a timestamp in epoch second format
  * @returns a timestamp in epoch second format
@@ -8,6 +9,7 @@ export function timestampSecondFormat(): number {
     return Math.floor(Date.now() / 1000);
 }
 
+// Find the amount of time passed
 /**
  * displays a string showing how long it's been since a time stamp has occurred. The unit changes as needed.
  * @param epochTimestampInSeconds time in epoch second format

@@ -1,5 +1,6 @@
 // Encryption and Decryption ciphers
 
+// Caesar Cipher
 /**
  * Encrypts or decrypts a message using the Caesar cipher.
  *
@@ -43,6 +44,7 @@ export function caesarCipher(text: string, shift: number, encrypt: boolean = tru
     return result;
 }
 
+// Viginere Cipher
 /**
  * Encrypts or decrypts a message using the Vigenère cipher.
  *
