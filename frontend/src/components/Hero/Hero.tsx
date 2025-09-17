@@ -1,7 +1,10 @@
-
+import { NODE_ENV } from "../../app/global";
 import "./Hero.css";
 
 export default function Hero() {
+
+    
+
     return (
         <div className="Hero">
 
@@ -18,11 +21,11 @@ export default function Hero() {
                         <div className="right-eye"></div>
                     </div>
 
-
-
                 </div>
 
             </div>
+
+
 
         </div>
     )
