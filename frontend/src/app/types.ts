@@ -5,7 +5,7 @@ export interface FetchType {
     error: string | null;
 }
 
-export const fectchObject: FetchType = {
+export const fetchObject: FetchType = {
     loading: 'idle',
     error: null,
 }

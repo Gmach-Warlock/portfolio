@@ -1,4 +1,3 @@
-import { NODE_ENV } from "../../app/global";
 import "./Hero.css";
 
 export default function Hero() {

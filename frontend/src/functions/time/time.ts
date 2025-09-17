@@ -1,7 +1,18 @@
+/**
+ * creates and returns a timestamp in epoch second format
+ * @returns a timestamp in epoch second format
+ */
+
 export function timestampSecondFormat(): number {
 
     return Math.floor(Date.now() / 1000);
 }
+
+/**
+ * displays a string showing how long it's been since a time stamp has occurred. The unit changes as needed.
+ * @param epochTimestampInSeconds time in epoch second format
+ * @returns the time since the time stamp provided in a string format 
+ */
 
 export function getTimeSinceEpochTimestamp(epochTimestampInSeconds: number) { 
     const currentTimeMillis = Date.now(); 
