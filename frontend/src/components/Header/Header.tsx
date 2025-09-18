@@ -1,4 +1,5 @@
 import "./Header.css";
+import Navbar from "./Navbar/Navbar";
 
 export default function Header() {
     return (
@@ -6,7 +7,7 @@ export default function Header() {
         <header>
 
             <div>
-                <span>logo</span>
+                <span>G-Mach</span>
             </div>
             
             <div>
@@ -14,7 +15,7 @@ export default function Header() {
             </div>
 
             <div>
-                <span>Navbar</span>
+                <Navbar />
             </div>
 
         </header>

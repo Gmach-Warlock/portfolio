@@ -1,0 +1,76 @@
+.Character {
+    justify-content: center;
+}
+
+.head {
+    width: 7rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: #EBDAB2;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap: 2.2rem;
+    position: relative;
+}
+
+
+
+.eyes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    top: 1rem;
+}
+
+.right-eye,
+.left-eye {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 15%;
+    transform: rotate(45deg);
+    border: 1px solid black;
+    place-items: center;
+    align-content: center;
+}
+
+.right-pupil,
+.left-pupil {
+    background-color: black;
+    width: 4px;
+    height: 4px; 
+    border-radius: 50%;
+}
+
+
+.glasses {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.hair {
+    width: 6rem;
+    height: 4rem;
+  
+    background-color: black;
+    border-radius: 5% 5% 5% 5%;
+    clip-path: polygon(0 0, 100% 0, 91% 100%, 9% 100%);
+    transform: translateY(1.1rem);
+    justify-self: center;
+    position: relative;
+}
+
+.mouth {
+    width: 1.5rem;
+    height: 2rem;
+    border-radius: 50% 20%;
+    background-color: black;
+    transform: rotate(45deg);
+    justify-content: center;
+}
